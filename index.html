@@ -1,0 +1,262 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TM Digital Tech</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/home.css">
+    <link rel="stylesheet" href="./css/service.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <h1>TM Digital Tech</h1>
+    <ul class="nav-links">
+      <li><a class="active"  href="#">Home</a></li>
+      <li><a href="./service.html">Services</a></li>
+      <li><a href="./about.html">About Us</a></li>
+      <!-- <li><a href="#">Careers</a></li> -->
+      <li><a href="./contact.html">Contact Us</a></li>
+    </ul>
+  </nav>
+
+  <!-- banner Section -->
+
+
+
+  <div id="vanta-birds" style="width: 100%; height: 600px;">
+  <h1 style="color: white; text-align: center; padding-top: 200px;">
+<div class="hero-section">
+  <h2>Welcome to TM Digital Tech</h2><br>
+  <p>We provide creative design, smart marketing, and powerful web solutions to help your business grow.</p><br><br>
+  <div class="buttons">
+    <button class="btn">Get Started</button>
+    <button class="btn">Our Services</button>
+  </div>
+</div>
+
+  </h1>
+</div>
+
+<!-- Scripts -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vanta/dist/vanta.birds.min.js"></script>
+
+<script>
+  VANTA.BIRDS({
+    el: "#vanta-birds",
+    mouseControls: true,
+    touchControls: true,
+    minHeight: 200.00,
+    minWidth: 200.00,
+    scale: 1.00,
+    scaleMobile: 1.00,
+    backgroundColor: 0x000000, // black background
+    color1: 0xa20b58,          // bird color 1
+    color2: 0xa20b58,          // bird color 2
+    birdSize: 1.50,
+    wingSpan: 20.00,
+    speedLimit: 4.00,
+    separation: 30.00,
+    alignment: 50.00,
+    cohesion: 50.00,
+    quantity: 4.00
+  })
+</script>
+
+
+
+  <!--service section-->
+
+<section id="services">
+    <h2>Our Services</h2><br><br>
+    <div class="line"></div><br><br><br><br>
+
+    <div class="service-cards">
+      <div class="card">
+        <i class="bi bi-code-slash"></i>
+        <h3>Web Development</h3>
+        <p>Building responsive and user-friendly websites for your business</p>
+        <a href="#" class="arrow">➔</a>
+      </div>
+
+      <div class="card">
+        <i class="bi bi-megaphone"></i>
+        <h3>Digital Marketing Solutions</h3>
+        <p>Boosting your online presence and reach</p>
+        <a href="#" class="arrow">➔</a>
+      </div>
+
+      <div class="card">
+        <i class="bi bi-card-heading"></i>
+        <h3>Graphic Design</h3>
+        <p>Creating visually appealing and impactful designs for your brand</p>
+        <a href="#" class="arrow">➔</a>
+      </div>
+    </div>
+  </section>
+
+  <!--why choose us section-->
+
+  <section id="why-choose">
+    <div class="why-text">
+      <h2>Why Choose Us</h2><br><br>
+      <div class="line"></div><br><br><br><br>
+
+      <div class="accordion active">
+        <div class="accordion-header">
+          <span>×</span> Experienced & Passionate Team
+        </div>
+        <div class="accordion-content">
+          Our skilled professionals bring creativity and dedication to every project, ensuring high-quality solutions tailored to your needs.
+        </div>
+      </div>
+
+      <div class="accordion">
+        <div class="accordion-header">
+          <span>+</span> Affordable & Scalable Solutions
+        </div>
+        <div class="accordion-content">
+          We provide cost-effective, scalable digital solutions that grow with your business.Every project we deliver ensures measurable results and growth.
+        </div>
+      </div>
+
+      <div class="accordion">
+        <div class="accordion-header">
+          <span>+</span> Focused on Results
+        </div>
+        <div class="accordion-content">
+          Every project is result-driven, ensuring measurable impact and business growth.We focus on creating strategies that truly make a difference.
+        </div>
+      </div>
+
+      <div class="accordion">
+        <div class="accordion-header">
+          <span>+</span> Dedicated Support
+        </div>
+        <div class="accordion-content">
+         We provide round-the-clock support to keep your digital platforms smooth.Our team ensures everything runs without interruptions.
+        </div>
+      </div>
+    </div>
+
+    <div class="why-image">
+      <img src="./src/images/card_gd.png" alt="Why Choose Us">
+    </div>
+  </section>
+
+    <!--contact section-->
+
+<section id="contact-section">
+    <div class="contact-form">
+      <h2>Get In Touch</h2><br><br>
+      <div class="line"></div><br><br><br>
+
+      <form>
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" id="name" placeholder="Enter Your Name" required>
+        </div><br>
+
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" placeholder="Enter Your Email" required>
+        </div><br>
+
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" placeholder="Type Your Message here......" required></textarea>
+        </div><br>
+
+        <button type="submit" class="submit-btn">Submit</button>
+      </form>
+    </div>
+
+    <div class="contact-image">
+      <img src="./src/images/cell_ph (1).png" alt="Contact">
+    </div>
+  </section>
+
+  <!--footer section-->
+  
+
+<footer>
+    <div class="footer-container">
+      <!-- Column 1 -->
+      <div class="footer">
+        <h3>Stay Connected</h3><br>
+        <div class="line"></div><br>
+        <p>At TM Digital Tech, we create innovative and reliable digital solutions <br>that go beyond expectations.Our team blends creativity and technology <br>to deliver impactful results for every client.</p><br>
+        <p class="contact-info"><i class="bi bi-telephone-fill"></i> 90256-01579</p>
+        <p class="contact-info"><i class="bi bi-envelope-fill"></i> digitaltech@gmail.com</p>
+        <p class="contact-info"><i class="bi bi-geo-alt-fill"></i> Rengapavanam, No-1, Lourdu Nagar,7th Street, <br>5th Cross Street K.Pudur, Madurai-7</p>
+      </div>
+      <!-- Column 2 -->
+      <div class="footer">
+        <h3>Company</h3>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </div>
+      <!-- Column 3 -->
+      <div class="footer">
+        <h3>Services</h3>
+        <ul>
+          <li><a href="#">Web Development</a></li>
+          <li><a href="#">Digital Marketing</a></li>
+          <li><a href="#">Graphic Design</a></li>
+        </ul>
+      </div>
+      <!-- Column 4 -->
+      <div class="footer">
+        <h3>Follow Us</h3>
+        <div class="social-icons">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-whatsapp"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="bottom-bar">
+      <p>Copyright© 2025 TM Digital Tech. All Rights Reserved.</p>
+      <p><a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+    </div>
+  </footer>
+
+
+
+<!--script-->
+
+
+  <script>
+    const accordions = document.querySelectorAll('.accordion');
+
+    accordions.forEach(acc => {
+      acc.querySelector('.accordion-header').addEventListener('click', () => {
+        accordions.forEach(a => {
+          if (a !== acc) {
+            a.classList.remove('active');
+            a.querySelector('.accordion-header span').textContent = '+';
+          }
+        });
+
+        acc.classList.toggle('active');
+        const icon = acc.querySelector('.accordion-header span');
+        icon.textContent = acc.classList.contains('active') ? '×' : '+';
+      });
+    });
+  </script>
+
+  
+
+</body>
+</html>
