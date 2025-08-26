@@ -82,7 +82,8 @@
       padding: 60px 100px;
       background-color: #000;
       color: white;
-       background-image: url(../src/images/tm_bg2.png);
+      background: linear-gradient(135deg, #7c0141, #0a0a0a);
+       /* background-image: url(../src/images/tm_bg2.png); */
     }
 
     .services-section h2 {
@@ -96,23 +97,32 @@
       margin-bottom: 30px;
     }
 
-    .service-box {
-      background: #202020;
-      padding: 30px;
-      margin: 25px auto;
-      border-radius: 8px;
-      max-width: 1400px;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-      text-align: left;
-    }
+ .service-box {
+  background: rgba(98, 98, 98, 0.385); /* semi-transparent dark background */
+  padding: 30px;
+  margin: 25px auto;
+  border-radius: 12px;
+  max-width: 1400px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  text-align: left;
+
+  /* Glassmorphism effect */
+  backdrop-filter: blur(30px);
+  -webkit-backdrop-filter: blur(10px);
+
+  border: 1px solid rgba(255, 255, 255, 0.2); /* thin frosted border */
+}
+
 
     .service-box h3 {
       margin-bottom: 10px;
-      color: #a20b58;
+      color: #f7f7f7;
+      font-size: 24px;
     }
 
     .service-box p {
-      margin-bottom: 15px;
+      margin-bottom: 16px;
+      font-weight: 300;
     }
 
     .service-box a {
@@ -122,10 +132,12 @@
       padding: 8px 15px;
       border-radius: 5px;
       font-size: 14px;
+      transition-duration: 0.7s;
     }
 
     .service-box a:hover {
-      background: #870946;
+      background: #ffffff;
+      color: #a20b58;
     }
 
 

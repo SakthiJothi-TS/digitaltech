@@ -35,7 +35,8 @@
   display: flex;
   flex-wrap: wrap;
   padding: 60px 100px;
-  background-color: #000000;
+  /* background-color: #000000; */
+  background-image: url(../src/images/tm_bg2.png);
   color: white;
   align-items: center;
   gap: 60px;
