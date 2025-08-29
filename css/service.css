@@ -13,7 +13,8 @@
       height: auto;
       background-color: #000;
       gap: 30px;
-      background-image: url(../src/images/tm_bg.png);
+      /* background-image: url(../src/images/tm_bg.png); */
+        background: linear-gradient(90deg, black, black, black, black, #BB1B89);
        /* flex-wrap: wrap; */
     }
 
@@ -28,15 +29,6 @@
         font-size: 38px;
         font-weight: bold;
         color: #f1f1f1;
-    }
-    
-    .line {
-      font-size: 20px;
-      width: 100px;
-      height: 4px;
-      background-color: #ff4b8b;
-      border-radius: 2px;
-      margin-top: -20px;
     }
 
     .herotext p {
@@ -82,7 +74,7 @@
       padding: 60px 100px;
       background-color: #000;
       color: white;
-      background: linear-gradient(135deg, #7c0141, #0a0a0a);
+      background: linear-gradient(90deg, #BB1B89, black, black, black, black);
        /* background-image: url(../src/images/tm_bg2.png); */
     }
 
@@ -128,7 +120,7 @@
     .service-box a {
       text-decoration: none;
       color: #fff;
-      background: #a20b58;
+      background: var(--primary-color);
       padding: 8px 15px;
       border-radius: 5px;
       font-size: 14px;
@@ -137,14 +129,14 @@
 
     .service-box a:hover {
       background: #ffffff;
-      color: #a20b58;
+      color: var(--primary-color);
     }
 
 
 /*footer section*/
 
 footer {
-  background: #121212;
+  background: linear-gradient(90deg, black, #BB1B89,  #8D298B);
   color: white;
   padding: 60px 100px;
 }
@@ -162,6 +154,7 @@ footer {
 
 .footer p {
   font-size: 16px;
+  width: 120%;
   line-height: 1.6;
 }
 
@@ -181,18 +174,18 @@ footer {
 }
 
 .footer a:hover {
-  color: #e60073; 
+  color: black;
 }
 
 .contact-info i {
   margin-right: 8px;
-  color: #e60073;
+  color: var(--tertiary-color);
 }
 
 .social-icons a {
   margin-right: 10px;
   font-size: 20px;
-  color: #e60073;
+  color: var(--tertiary-color);
   text-decoration: none;
 }
 
@@ -206,13 +199,21 @@ footer {
   color: white;
 }
 
-.bottom-bar a{
+.bottom-bar a {
   text-decoration: underline;
   list-style: none;
   color: white;
 }
 
-
+.line {
+      font-size: 20px;
+      width: 100px;
+      height: 4px;
+      background-color: #ff4b8b;
+      border-radius: 2px;
+      margin-top: -20px;
+    }
+    
 /*media query starts*/
 
 @media (max-width: 1111px) {
